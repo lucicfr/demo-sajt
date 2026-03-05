@@ -79,7 +79,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>2025 DentCare Stomatološka Ordinacija. Sva prava zadržana. Ovo je demo sajt.</p>
+          <p>2026 DentCare Stomatološka Ordinacija. Sva prava zadržana. Ovo je demo sajt.</p>
         </div>
       </div>
     </footer>
