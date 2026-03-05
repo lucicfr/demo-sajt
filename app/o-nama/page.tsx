@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { About } from "@/components/about"
+import { DoctorProfile } from "@/components/doctor-profile"
 import { WhyChooseUs } from "@/components/why-choose-us"
 import { CTA } from "@/components/cta"
 
@@ -12,6 +13,7 @@ export default function ONamaPage() {
   return (
     <div className="pt-20">
       <About />
+      <DoctorProfile />
       <WhyChooseUs />
       <CTA />
     </div>

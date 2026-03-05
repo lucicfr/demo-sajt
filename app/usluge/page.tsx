@@ -1,5 +1,7 @@
 import type { Metadata } from "next"
 import { Services } from "@/components/services"
+import { BeforeAfterGallery } from "@/components/before-after-gallery"
+import { FAQ } from "@/components/faq"
 import { CTA } from "@/components/cta"
 
 export const metadata: Metadata = {
@@ -11,6 +13,8 @@ export default function UslugePage() {
   return (
     <div className="pt-20">
       <Services />
+      <BeforeAfterGallery />
+      <FAQ />
       <CTA />
     </div>
   )
